@@ -1,18 +1,7 @@
 import { discordClient, robloxClient, robloxGroup } from '../../main';
 import { CommandContext } from '../../structures/addons/CommandAddons';
 import { Command } from '../../structures/Command';
-import {
-    getInvalidRobloxUserEmbed,
-    getRobloxUserIsNotMemberEmbed,
-    getSuccessfulUnsuspendEmbed,
-    getUnexpectedErrorEmbed,
-    getVerificationChecksFailedEmbed,
-    getRoleNotFoundEmbed,
-    getNotSuspendedEmbed,
-    getAlreadySuspendedEmbed,
-    noSuspendedRankLog,
-    mainColor,
-} from '../../handlers/locale';
+import { mainColor } from '../../handlers/locale';
 import { config } from '../../config';
 import { provider } from '../../database/router';
 import { MessageEmbed } from 'discord.js';
